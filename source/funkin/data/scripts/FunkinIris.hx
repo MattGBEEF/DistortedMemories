@@ -342,6 +342,11 @@ class FunkinIris extends FunkinScript
 		set("EaseEvent", funkin.modchart.events.EaseEvent);
 		set("SetEvent", funkin.modchart.events.SetEvent);
 
+		set("FlxView3D", flx3d.FlxView3D);
+		set("Flx3DView", flx3d.Flx3DView);
+		set("Flx3DUtil", flx3d.Flx3DUtil);
+		set("Flx3DCamera", flx3d.Flx3DCamera);
+
 		set("GameOverSubstate", funkin.states.substates.GameOverSubstate);
 		set("GameOverVideoSubstate", funkin.states.substates.GameOverVideoSubstate);
 
